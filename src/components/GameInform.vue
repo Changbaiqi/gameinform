@@ -24,7 +24,7 @@ const renderedMarkdown = ref<string>('')
 
 onMounted(async () => {
   try {
-    const res = await fetch('notice.md')
+    const res = await fetch(`${import.meta.env.BASE_URL}/notice.md`)
     markdown.value = await res.text()
     // renderedMarkdown.value = marked.parse(markdown.value)
     renderedMarkdown.value =await marked.parse(markdown.value) // ✅ 同步
