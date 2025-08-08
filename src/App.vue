@@ -1,6 +1,7 @@
 <script setup lang="ts">
 // import HelloWorld from './components/HelloWorld.vue'
 import GameInform from "./components/GameInform.vue";
+// import { Motion } from '@vueuse/motion'
 </script>
 
 <template>
@@ -13,7 +14,10 @@ import GameInform from "./components/GameInform.vue";
 <!--    </a>-->
 <!--  </div>-->
 <!--  <HelloWorld msg="Vite + Vue" />-->
-  <GameInform></GameInform>
+  <div id="inform">
+    <GameInform></GameInform>
+  </div>
+
 </template>
 
 <style scoped>
@@ -28,5 +32,30 @@ import GameInform from "./components/GameInform.vue";
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+#inform{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  height: 80vh;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  animation: ani 1s;
+}
+@keyframes ani {
+  0% {
+    transform: translate3d(-100px, -100px,-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0px, 0px,0px);
+    top: 100%;
+    opacity: 1;
+  }
 }
 </style>
