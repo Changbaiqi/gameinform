@@ -46,6 +46,9 @@ import GameInform from "./components/GameInform.vue";
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   padding: 30px;
   animation: ani 1s;
+  overflow-y: auto; /* 内容超出垂直滚动 */
+  overflow-x: hidden; /* 水平隐藏，避免水平滚动 */
+  word-wrap: break-word; /* 单词太长自动换行 */
 }
 @keyframes ani {
   0% {
