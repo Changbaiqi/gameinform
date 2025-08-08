@@ -12,7 +12,7 @@
 有的兄弟有的
 那就是————————————极星俱乐部
 
-<img src="./gameinform/1.jpg" style="width: 300px;">
+<img src="./1.jpg" style="width: 300px;">
 
 承诺为每一个客户提供最好的游戏体验
 
@@ -29,7 +29,7 @@
 上到少萝御姐
 下到成都小南娘
 供您选择
-<img src="./gameinform/2.jpg" style="width: 300px">
+<img src="./2.jpg" style="width: 300px">
 如何点单？
 
 社恐福音 ☎️🌟加群后（QQ群:[127889170](https://qm.qq.com/q/Kpp9WdYRqO)）
